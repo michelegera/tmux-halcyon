@@ -33,13 +33,6 @@
    2. [Config 2](#config-2)
    3. [Config 3](#config-3)
 
-## Themes
-
-- 🌻 [Latte](./catppuccin-latte.tmuxtheme)
-- 🪴 [Frappé](./catppuccin-frappe.tmuxtheme)
-- 🌺 [Macchiato](./catppuccin-macchiato.tmuxtheme)
-- 🌿 [Mocha](./catppuccin-mocha.tmuxtheme)
-
 ## Installation
 
 In order to have the icons displayed correctly please use / update your favorite [patched font](https://www.nerdfonts.com/font-downloads).
@@ -56,12 +49,6 @@ set -g @plugin 'catppuccin/tmux'
 set -g @plugin 'tmux-plugins/tpm'
 ```
 
-3. (Optional) Set your preferred flavour, it defaults to `"mocha"`:
-
-```bash
-set -g @catppuccin_flavour 'latte' # or frappe, macchiato, mocha
-```
-
 ### Manual
 
 1. Copy your desired theme's configuration contents into your Tmux config (usually stored at `~/.tmux.conf`)
@@ -74,9 +61,8 @@ This is a diagram on how the theme is split between it's components.
 
 ## Configuration options
 
-All flavours support certain levels of customization that match our [Catppuccin
-Style Guide][style-guide]. To add these customizations, add any of the following
-options to your Tmux configuration.
+To customize the appearance of the theme, add any of the following options to
+your Tmux configuration.
 
 ### Window
 

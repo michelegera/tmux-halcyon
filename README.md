@@ -1,18 +1,17 @@
 <h3 align="center">
-	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/logos/exports/1544x1544_circle.png" width="100" alt="Logo"/><br/>
-	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/misc/transparent.png" height="30" width="0px"/>
-	Catppuccin for <a href="https://github.com/tmux/tmux">Tmux</a>
-	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/misc/transparent.png" height="30" width="0px"/>
+	<img src="https://github.com/michelegera/tmux-halcyon/blob/ef25331e6f5a19be727b1e9632d2e262306f1338/assets/logo.png?raw=true" alt="Logo" width="200"/>
+  <br/>
+	Halcyon for <a href="https://github.com/tmux/tmux">Tmux</a>
 </h3>
 
 <p align="center">
-    <a href="https://github.com/catppuccin/tmux/stargazers"><img src="https://img.shields.io/github/stars/catppuccin/tmux?colorA=363a4f&colorB=b7bdf8&style=for-the-badge"></a>
-    <a href="https://github.com/catppuccin/tmux/issues"><img src="https://img.shields.io/github/issues/catppuccin/tmux?colorA=363a4f&colorB=f5a97f&style=for-the-badge"></a>
-    <a href="https://github.com/catppuccin/tmux/contributors"><img src="https://img.shields.io/github/contributors/catppuccin/tmux?colorA=363a4f&colorB=a6da95&style=for-the-badge"></a>
+  A port of the <a href="https://halcyon-theme.netlify.app/">Halcyon</a> theme based on <a href="https://github.com/catppuccin/tmux">Catppuccin for Tmux</a>.
 </p>
 
 <p align="center">
-  <img src="./assets/preview.webp"/>
+    <a href="https://github.com/michelegera/tmux-halcyon/stargazers"><img src="https://img.shields.io/github/stars/michelegera/tmux-halcyon?colorA=2f3b54&colorB=c3a6ff&style=for-the-badge"></a>
+    <a href="https://github.com/michelegera/tmux-halcyon/issues"><img src="https://img.shields.io/github/issues/michelegera/tmux-halcyon?colorA=2f3b54&colorB=ffae57&style=for-the-badge"></a>
+    <a href="https://github.com/michelegera/tmux-halcyon/contributors"><img src="https://img.shields.io/github/contributors/michelegera/tmux-halcyon?colorA=2f3b54&colorB=bae67e&style=for-the-badge"></a>
 </p>
 
 ## Content
@@ -41,10 +40,10 @@ If you do not have a patched font installed, you can override or remove any icon
 ### TPM
 
 1. Install [TPM](https://github.com/tmux-plugins/tpm)
-2. Add the Catppuccin plugin:
+2. Add the Halcyon plugin:
 
 ```bash
-set -g @plugin 'catppuccin/tmux'
+set -g @plugin 'michelegera/tmux-halcyon'
 # ...alongside
 set -g @plugin 'tmux-plugins/tpm'
 ```
@@ -297,10 +296,10 @@ The prefered way to install tmux-battery is using [TPM](https://github.com/tmux-
 
 #### Configure
 
-Load tmux-battery after you load catppuccin.
+Load tmux-battery after you load halcyon.
 
 ```sh
-set -g @plugin 'catppuccin/tmux'
+set -g @plugin 'michelegera/tmux-halcyon'
 ...
 set -g @plugin 'tmux-plugins/tmux-battery'
 ```
@@ -317,7 +316,7 @@ It is possible to add a new custom module or overrite any of the existing module
 
 Look into custom/README.md for more details.
 
-Any file added to the custom folder will be preserved when updating catppuccin.
+Any file added to the custom folder will be preserved when updating halcyon.
 
 ## Configuration Examples
 
@@ -411,6 +410,5 @@ set -g @halcyon_directory_text "#{pane_current_path}"
 
 &nbsp;
 
-<p align="center"><img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/footers/gray0_ctp_on_line.svg?sanitize=true" /></p>
 <p align="center">Copyright &copy; 2021-present <a href="https://github.com/catppuccin" target="_blank">Catppuccin Org</a>
-<p align="center"><a href="https://github.com/catppuccin/catppuccin/blob/main/LICENSE"><img src="https://img.shields.io/static/v1.svg?style=for-the-badge&label=License&message=MIT&logoColor=d9e0ee&colorA=363a4f&colorB=b7bdf8"/></a></p>
+<p align="center"><a href="https://github.com/catppuccin/catppuccin/blob/main/LICENSE"><img src="https://img.shields.io/static/v1.svg?style=for-the-badge&label=License&message=MIT&logoColor=d9e0ee&colorA=2f3b54&colorB=6679a4"/></a></p>
